@@ -1,0 +1,69 @@
+/* index.css atau App.css */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background-color: #007bff;
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.skor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skor-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaf4ff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+}
